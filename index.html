@@ -6,24 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type = "text/css" href="css.css"/>
+    
+    
     <title>Random quote Generator</title>
 </head>
 
-<div class="app">
+<body>
+
+ <div class="app">
     <header>Random Quotes</header>
     <section class="quotes">
       <div class="quote-text" id="js-quote-text"></div>
     </section>
+
+
+    <section id="js-spinner" class="spinner hidden">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </section>
+    
     <section class="controls">
       <button type="button" id="js-new-quote" class="new-quote button">
         Generate a new quote
       </button>
       <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer">Tweet it!</a>
-      <script src="js.js" ></script>
+      
+    <script src = 'js.js'></script>
     </section>
   </div>
+  
 
-<body>
+
   
     
 </body>
